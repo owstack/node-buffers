@@ -1,15 +1,15 @@
 {
-    "name": "buffers",
+    "name": "@owstack/buffers",
     "description": "Treat a collection of Buffers as a single contiguous partially mutable Buffer.",
     "version": "0.0.2",
-    "repository": "http://github.com/substack/node-buffers.git",
+    "repository": "http://github.com/owstack/node-buffers.git",
     "author": "James Halliday <mail@substack.net> (http://substack.net)",
     "main": "./index",
     "scripts": {
         "test": "tap test/*.js"
     },
     "engines": {
-        "node": ">=0.2.0"
+        "node": ">=8"
     },
     "devDependencies": {
         "tap": "~0.2.4"

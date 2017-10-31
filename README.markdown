@@ -17,7 +17,7 @@ example
 slice
 -----
 
-    var Buffers = require('buffers');
+    var Buffers = require('@owstack/buffers');
     var bufs = Buffers();
     bufs.push(new Buffer([1,2,3]));
     bufs.push(new Buffer([4,5,6,7]));
@@ -33,7 +33,7 @@ output:
 splice
 ------
 
-    var Buffers = require('buffers');
+    var Buffers = require('@owstack/buffers');
     var bufs = Buffers([
         new Buffer([1,2,3]),
         new Buffer([4,5,6,7]),
